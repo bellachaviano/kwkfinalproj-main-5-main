@@ -65,24 +65,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.043137259779999999" green="0.30980393290000002" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="358" id="P9x-eu-5UK">
-                                <rect key="frame" x="36" y="645" width="371" height="124"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="ReG-aR-9qT"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Take a deep breath, then shake your phone ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" metaFont="system" size="25"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="kxh-2f-6QE">
                                 <rect key="frame" x="20" y="11" width="124" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -119,6 +101,24 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
                                 <color key="textColor" red="0.90196073060000004" green="0.66274511810000003" blue="0.60784316059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="358" id="P9x-eu-5UK">
+                                <rect key="frame" x="22" y="645" width="371" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="ReG-aR-9qT"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Take a deep breath, then shake your phone  :)">
+                                        <attributes>
+                                            <color key="NSColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="25"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -295,7 +295,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="233" translatesAutoresizingMaskIntoConstraints="NO" id="5xx-7q-p7K">
-                                <rect key="frame" x="184" y="412" width="215" height="196"/>
+                                <rect key="frame" x="184" y="405" width="210" height="196"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="196" id="Ess-bK-K85"/>
                                 </constraints>
@@ -305,7 +305,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnK-j6-fit">
-                                <rect key="frame" x="180" y="197" width="215" height="202"/>
+                                <rect key="frame" x="182" y="192" width="215" height="202"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="215" id="0KY-bg-UZY"/>
                                 </constraints>
@@ -315,7 +315,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rs4-JD-lMB">
-                                <rect key="frame" x="196" y="183" width="155.5" height="29"/>
+                                <rect key="frame" x="197.5" y="178" width="153.5" height="29"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Bella Chaviano">
                                         <attributes>
@@ -327,8 +327,21 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="re0-hI-nEt">
+                                <rect key="frame" x="196.5" y="609" width="155.5" height="29"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Olivia Dydzuhn">
+                                        <attributes>
+                                            <color key="NSColor" red="0.9529411793" green="0.87058818339999999" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="24"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SgF-nG-os9">
-                                <rect key="frame" x="152" y="123" width="322" height="28"/>
+                                <rect key="frame" x="197" y="113" width="204" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="5mY-Qw-Dg1"/>
                                 </constraints>
@@ -342,19 +355,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="220" id="SIG-i8-q4I">
-                                <rect key="frame" x="184" y="628" width="210" height="194"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="194" id="yJN-8G-u81"/>
-                                </constraints>
-                                <string key="text">Olivia loves to code and her favorite self care activity is skin care! In her free time she loves to code websites. She believes that self-care is an important factor to living a happy life and hopes this app can help others care for themselves better.</string>
-                                <fontDescription key="fontDescription" name="Cambay-Regular" family="Cambay" pointSize="16"/>
-                                <color key="textColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="186" id="rtP-cy-cyz" userLabel="title">
-                                <rect key="frame" x="152" y="59" width="186" height="56"/>
+                                <rect key="frame" x="111" y="49" width="186" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
@@ -391,7 +393,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RL2-5J-3qj">
-                                <rect key="frame" x="196" y="392" width="187" height="32"/>
+                                <rect key="frame" x="197" y="384" width="187" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="zJm-cr-9el"/>
                                 </constraints>
@@ -406,59 +408,60 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="re0-hI-nEt">
-                                <rect key="frame" x="196.5" y="609" width="155.5" height="29"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Olivia Dydzuhn">
-                                        <attributes>
-                                            <color key="NSColor" red="0.9529411793" green="0.87058818339999999" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" metaFont="system" size="24"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="220" id="SIG-i8-q4I">
+                                <rect key="frame" x="184" y="623" width="210" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="194" id="yJN-8G-u81"/>
+                                </constraints>
+                                <string key="text">Olivia loves to code and her favorite self care activity is skin care! In her free time she loves to code websites. She believes that self-care is an important factor to living a happy life and hopes this app can help others care for themselves better.</string>
+                                <fontDescription key="fontDescription" name="Cambay-Regular" family="Cambay" pointSize="16"/>
+                                <color key="textColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="x60-SM-87r"/>
                         <color key="backgroundColor" red="0.0" green="0.31764706970000001" blue="0.4352940917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="dnK-j6-fit" secondAttribute="trailing" constant="19" id="0eE-mo-ThD"/>
-                            <constraint firstItem="dnK-j6-fit" firstAttribute="top" secondItem="DWE-By-KWR" secondAttribute="bottom" constant="21" id="1QT-4P-UKH"/>
+                            <constraint firstAttribute="trailing" secondItem="dnK-j6-fit" secondAttribute="trailing" constant="17" id="0eE-mo-ThD"/>
+                            <constraint firstItem="dnK-j6-fit" firstAttribute="top" secondItem="DWE-By-KWR" secondAttribute="bottom" constant="16" id="1QT-4P-UKH"/>
                             <constraint firstItem="Gf8-p6-1jP" firstAttribute="leading" secondItem="Okt-lD-CQE" secondAttribute="leading" id="1Ti-Va-SR7"/>
-                            <constraint firstItem="rtP-cy-cyz" firstAttribute="leading" secondItem="DWE-By-KWR" secondAttribute="trailing" constant="49" id="269-mq-xS2"/>
-                            <constraint firstItem="x60-SM-87r" firstAttribute="trailing" secondItem="RL2-5J-3qj" secondAttribute="trailing" constant="31" id="8Ey-aU-3uE"/>
+                            <constraint firstItem="rtP-cy-cyz" firstAttribute="leading" secondItem="DWE-By-KWR" secondAttribute="trailing" constant="8" id="269-mq-xS2"/>
+                            <constraint firstItem="rs4-JD-lMB" firstAttribute="centerX" secondItem="re0-hI-nEt" secondAttribute="centerX" id="4nC-GB-7bB"/>
+                            <constraint firstItem="x60-SM-87r" firstAttribute="trailing" secondItem="RL2-5J-3qj" secondAttribute="trailing" constant="30" id="8Ey-aU-3uE"/>
                             <constraint firstAttribute="bottomMargin" secondItem="Gf8-p6-1jP" secondAttribute="bottom" constant="-14" id="9jh-Ah-Eyb"/>
-                            <constraint firstItem="dnK-j6-fit" firstAttribute="leading" secondItem="Emb-nZ-hxI" secondAttribute="trailing" id="AFD-0B-Utt"/>
-                            <constraint firstAttribute="trailing" secondItem="SIG-i8-q4I" secondAttribute="trailing" constant="31" id="AIr-Xq-K6h"/>
-                            <constraint firstItem="Emb-nZ-hxI" firstAttribute="bottom" secondItem="dnK-j6-fit" secondAttribute="bottom" constant="-20" id="BkE-s0-ekC"/>
+                            <constraint firstItem="dnK-j6-fit" firstAttribute="leading" secondItem="Emb-nZ-hxI" secondAttribute="trailing" constant="2" id="AFD-0B-Utt"/>
+                            <constraint firstAttribute="trailing" secondItem="SIG-i8-q4I" secondAttribute="trailing" constant="20" id="AIr-Xq-K6h"/>
+                            <constraint firstItem="Emb-nZ-hxI" firstAttribute="bottom" secondItem="dnK-j6-fit" secondAttribute="bottom" constant="-15" id="BkE-s0-ekC"/>
                             <constraint firstItem="x60-SM-87r" firstAttribute="trailing" secondItem="re0-hI-nEt" secondAttribute="trailing" constant="62" id="DC1-iu-cSe"/>
                             <constraint firstItem="Emb-nZ-hxI" firstAttribute="top" secondItem="DWE-By-KWR" secondAttribute="bottom" constant="8" id="MYg-JT-Ub9"/>
+                            <constraint firstItem="SgF-nG-os9" firstAttribute="top" secondItem="M9v-hV-M0l" secondAttribute="top" constant="113" id="OXI-sV-7GB"/>
                             <constraint firstItem="SIG-i8-q4I" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dnK-j6-fit" secondAttribute="leading" constant="-11" id="OkF-yI-cFa"/>
                             <constraint firstItem="SIG-i8-q4I" firstAttribute="leading" secondItem="Gf8-p6-1jP" secondAttribute="trailing" constant="12" id="VWl-Fy-moe"/>
-                            <constraint firstItem="rs4-JD-lMB" firstAttribute="leading" secondItem="Emb-nZ-hxI" secondAttribute="trailing" constant="16" id="Xnr-KJ-Qty"/>
-                            <constraint firstItem="rtP-cy-cyz" firstAttribute="centerX" secondItem="M9v-hV-M0l" secondAttribute="centerX" constant="38" id="XtO-Ax-71L"/>
-                            <constraint firstItem="SgF-nG-os9" firstAttribute="centerX" secondItem="5xx-7q-p7K" secondAttribute="centerX" constant="21.5" id="YFb-4A-1hy"/>
+                            <constraint firstItem="rs4-JD-lMB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Emb-nZ-hxI" secondAttribute="trailing" id="Xnr-KJ-Qty"/>
+                            <constraint firstItem="rtP-cy-cyz" firstAttribute="centerX" secondItem="M9v-hV-M0l" secondAttribute="centerX" constant="-3" id="XtO-Ax-71L"/>
+                            <constraint firstItem="SgF-nG-os9" firstAttribute="centerX" secondItem="5xx-7q-p7K" secondAttribute="centerX" constant="10" id="YFb-4A-1hy"/>
                             <constraint firstItem="SgF-nG-os9" firstAttribute="top" secondItem="rtP-cy-cyz" secondAttribute="bottom" constant="8" id="Yde-hh-riq"/>
-                            <constraint firstItem="SgF-nG-os9" firstAttribute="leading" secondItem="DWE-By-KWR" secondAttribute="trailing" constant="49" id="YxI-Do-8cg"/>
+                            <constraint firstItem="SgF-nG-os9" firstAttribute="leading" secondItem="DWE-By-KWR" secondAttribute="trailing" constant="94" id="YxI-Do-8cg"/>
                             <constraint firstItem="Emb-nZ-hxI" firstAttribute="trailing" secondItem="Okt-lD-CQE" secondAttribute="trailing" constant="8" id="a4F-zc-ZI3"/>
-                            <constraint firstItem="SIG-i8-q4I" firstAttribute="top" secondItem="5xx-7q-p7K" secondAttribute="bottom" constant="20" id="aaO-fe-jFB"/>
+                            <constraint firstItem="SIG-i8-q4I" firstAttribute="top" secondItem="5xx-7q-p7K" secondAttribute="bottom" constant="22" id="aaO-fe-jFB"/>
                             <constraint firstItem="SIG-i8-q4I" firstAttribute="leading" secondItem="5xx-7q-p7K" secondAttribute="leading" id="bLb-xn-wcX"/>
                             <constraint firstItem="Gf8-p6-1jP" firstAttribute="leading" secondItem="Emb-nZ-hxI" secondAttribute="leading" constant="7" id="cka-kb-JBh"/>
-                            <constraint firstItem="x60-SM-87r" firstAttribute="trailing" secondItem="rs4-JD-lMB" secondAttribute="trailing" constant="62.5" id="e4i-qO-8CP"/>
-                            <constraint firstItem="rs4-JD-lMB" firstAttribute="top" secondItem="SgF-nG-os9" secondAttribute="bottom" constant="32" id="eQc-XS-M5I"/>
+                            <constraint firstItem="x60-SM-87r" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rs4-JD-lMB" secondAttribute="trailing" id="e4i-qO-8CP"/>
+                            <constraint firstItem="rs4-JD-lMB" firstAttribute="top" secondItem="SgF-nG-os9" secondAttribute="bottom" constant="37" id="eQc-XS-M5I"/>
                             <constraint firstItem="DWE-By-KWR" firstAttribute="top" secondItem="M9v-hV-M0l" secondAttribute="top" id="fVG-Tc-FRi"/>
-                            <constraint firstItem="dnK-j6-fit" firstAttribute="leading" secondItem="M9v-hV-M0l" secondAttribute="leading" constant="180" id="gdF-Er-uAY"/>
-                            <constraint firstItem="RL2-5J-3qj" firstAttribute="top" secondItem="M9v-hV-M0l" secondAttribute="top" constant="392" id="ku7-yj-H4R"/>
+                            <constraint firstItem="dnK-j6-fit" firstAttribute="leading" secondItem="M9v-hV-M0l" secondAttribute="leading" constant="182" id="gdF-Er-uAY"/>
+                            <constraint firstItem="RL2-5J-3qj" firstAttribute="top" secondItem="M9v-hV-M0l" secondAttribute="top" constant="384" id="ku7-yj-H4R"/>
+                            <constraint firstItem="x60-SM-87r" firstAttribute="trailing" secondItem="SgF-nG-os9" secondAttribute="trailing" constant="13" id="lh4-Sp-oOn"/>
                             <constraint firstItem="Gf8-p6-1jP" firstAttribute="top" secondItem="re0-hI-nEt" secondAttribute="top" constant="-4" id="nEA-ug-ESr"/>
                             <constraint firstItem="re0-hI-nEt" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="x60-SM-87r" secondAttribute="leading" id="o0s-gm-Mnz"/>
                             <constraint firstItem="Okt-lD-CQE" firstAttribute="top" secondItem="Emb-nZ-hxI" secondAttribute="bottom" constant="-77" id="vUg-0t-t6B"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SgF-nG-os9" secondAttribute="trailing" constant="-60" id="voQ-ff-yVN"/>
-                            <constraint firstItem="x60-SM-87r" firstAttribute="trailing" secondItem="rtP-cy-cyz" secondAttribute="trailing" constant="76" id="vru-h0-IoZ"/>
-                            <constraint firstItem="RL2-5J-3qj" firstAttribute="leading" secondItem="Okt-lD-CQE" secondAttribute="trailing" constant="24" id="ySF-wh-F66"/>
+                            <constraint firstItem="x60-SM-87r" firstAttribute="trailing" secondItem="rtP-cy-cyz" secondAttribute="trailing" constant="117" id="vru-h0-IoZ"/>
+                            <constraint firstItem="RL2-5J-3qj" firstAttribute="leading" secondItem="Okt-lD-CQE" secondAttribute="trailing" constant="25" id="ySF-wh-F66"/>
                             <constraint firstItem="Gf8-p6-1jP" firstAttribute="top" secondItem="Okt-lD-CQE" secondAttribute="bottom" constant="-82" id="yzh-Db-vpp"/>
                             <constraint firstItem="DWE-By-KWR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="x60-SM-87r" secondAttribute="leading" symbolic="YES" id="zAs-P7-oOX"/>
-                            <constraint firstItem="rtP-cy-cyz" firstAttribute="top" secondItem="x60-SM-87r" secondAttribute="top" constant="59" id="zeU-VR-r8d"/>
+                            <constraint firstItem="rtP-cy-cyz" firstAttribute="top" secondItem="x60-SM-87r" secondAttribute="top" constant="49" id="zeU-VR-r8d"/>
                         </constraints>
                     </view>
                     <connections>
